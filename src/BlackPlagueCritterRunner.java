@@ -23,7 +23,6 @@ public class BlackPlagueCritterRunner
 		world.add(new Location(3,0), new Rock(Color.CYAN));
         world.add(new Location(1,0), new Rock(Color.ORANGE));
 		world.add(new Location(6,2), new Bug(Color.YELLOW));
-		
 		world.show(); 
 	}
 }

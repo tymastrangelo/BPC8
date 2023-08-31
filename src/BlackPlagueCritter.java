@@ -18,5 +18,4 @@ public class BlackPlagueCritter extends Critter {
          if(!(other instanceof Rock) && !(other instanceof Critter)) 
                 other.removeSelfFromGrid();
 }
-
 }
