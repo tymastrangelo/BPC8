@@ -10,7 +10,7 @@ public class BlackPlagueCritter extends Critter {
   public void processActors(ArrayList<Actor> actors) {
       for(Actor x : actors){
           if (!(x instanceof Rock)) 
-                   x.setColor(Color.BLACK);
+                   x.setColor(Color.GREEN);
            }
       int n = actors.size(); if (n == 0) return;
       int r = (int) (Math.random() * n);
