@@ -1,8 +1,6 @@
 import info.gridworld.actor.Rock;
 import info.gridworld.actor.Critter;
 import info.gridworld.actor.Actor;
-import info.gridworld.grid.Location;
-import info.gridworld.grid.Grid;
 import java.util.*;
 import java.awt.Color;
 
@@ -11,6 +9,8 @@ public class BlackPlagueCritter extends Critter {
       for(Actor x : actors){
           if (!(x instanceof Rock)) 
                    x.setColor(Color.GREEN);
+
+
            }
       int n = actors.size(); if (n == 0) return;
       int r = (int) (Math.random() * n);
